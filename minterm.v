@@ -3,6 +3,6 @@ module minterm (
     output Y
 );
 
-assign Y =  (C&~D) | (~A&~B&D) | (B&~C&~D);
+assign Y =  (C&~D) | (~A&~B&D) | (B&~D);
 
 endmodule
